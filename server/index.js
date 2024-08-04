@@ -18,10 +18,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin:
-      "https://www.angelpro.online" ||
-      "www.angelpro.online" ||
-      "https://angel-pro-react-frontend.vercel.app",
+    origin: "https://www.angelpro.online" || "www.angelpro.online",
     // origin: "http://localhost:5173",
   })
 );

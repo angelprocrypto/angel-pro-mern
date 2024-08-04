@@ -9,9 +9,7 @@ import {
 
 export const axiosClient = axios.create({
   // baseURL: `http://localhost:4000`,
-  baseURL: `https://angelpro-react.onrender.com`,
-  // baseURL: `https://angel-pro-react-angelprocryptos-projects.vercel.app`,
-  // baseURL: `${window.location.origin}`,
+  baseURL: `https://angel-pro-backend.onrender.com`,
   withCredentials: true,
 });
 
