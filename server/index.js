@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://www.angelpro.online" || "www.angelpro.online",
+    origin: "https://www.angelpro.online" || "https://angelpro.online",
     // origin: "http://localhost:5173",
   })
 );
