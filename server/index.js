@@ -1,3 +1,6 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
 const express = require("express");
 const morgon = require("morgan");
 const dotenv = require("dotenv");
@@ -35,6 +38,3 @@ app.listen(PORT, () => {
 });
 
 dbConnect();
-
-const dotenv = require("dotenv");
-dotenv.config();
