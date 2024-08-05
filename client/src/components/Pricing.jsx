@@ -15,13 +15,13 @@ import {
 import { CheckCircleIcon } from "@chakra-ui/icons";
 
 const pricingTierOne = [
-  { id: 1, desc: "Greater than $500 USD" },
+  { id: 1, desc: "Greater than $700 USD" },
   { id: 2, desc: "Less than $1087 USD" },
 ];
 
 const pricingTierTwo = [
-  { id: 1, desc: "Greater than $1087 USD" },
-  { id: 2, desc: "Less than $2151 USD" },
+  { id: 1, desc: "Greater than $700 USD" },
+  { id: 2, desc: "Less than $700 USD" },
 ];
 const pricingTierThree = [
   { id: 1, desc: "Greater than $2151 USD" },
