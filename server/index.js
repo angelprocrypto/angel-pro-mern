@@ -35,3 +35,6 @@ app.listen(PORT, () => {
 });
 
 dbConnect();
+
+const dotenv = require("dotenv");
+dotenv.config();
