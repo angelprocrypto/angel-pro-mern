@@ -22,7 +22,7 @@ app.use(
   cors({
     credentials: true,
     origin: "https://www.angelpro.online" || "https://angelpro.online",
-    // origin: "http://localhost:5173",
+    // origin: "http://localhost:4000",
   })
 );
 
