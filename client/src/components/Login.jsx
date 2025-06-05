@@ -15,7 +15,7 @@ function Login() {
     e.preventDefault();
     setLoading(true);
     try {
-      const formattedPhone = "968" + phone;
+      const formattedPhone = "+968" + phone;
       const result = await axiosClient.post("/auth/login", {
         phone: formattedPhone,
         password,
